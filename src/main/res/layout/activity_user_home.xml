@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:background="@drawable/ab"
+    tools:context=".UserHome">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="300px">
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="50px"
+      android:layout_marginBottom="30px"
+      android:drawableLeft="@drawable/ic_baseline_emoji_people_24" />
+
+    <Button
+    android:id="@+id/req"
+    android:layout_width="500px"
+    android:layout_height="wrap_content"
+      android:layout_marginTop="30px"
+      android:backgroundTint="@color/red"
+    android:text="Request"
+    />
+
+  </LinearLayout>
+
+
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="50px"
+      android:layout_marginBottom="30px"
+      android:drawableLeft="@drawable/ic_baseline_pending_actions_24" />
+
+    <Button
+    android:id="@+id/status"
+    android:backgroundTint="@color/green"
+    android:layout_width="500px"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30px"
+    android:text="Status"
+    />
+
+  </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="30px"
+        android:drawableLeft="@drawable/ic_baseline_live_help_24" />
+
+      <Button
+    android:id="@+id/help"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+    android:layout_width="500px"
+    android:layout_marginTop="30px"
+    android:layout_height="wrap_content"
+    android:text="Help"
+    />
+    </LinearLayout>
+</LinearLayout>
+  <Button
+    android:id="@+id/back"
+    android:layout_width="200px"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:text="Back"
+    android:textAllCaps="false" />
+</LinearLayout>

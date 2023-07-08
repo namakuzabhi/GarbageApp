@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="50dp"
+    android:orientation="vertical"
+    android:gravity="center"
+  android:background="@drawable/es"
+  tools:context=".UserLogin">
+
+  <EditText
+    android:id="@+id/username1"
+    android:gravity="center"
+  android:drawableLeft="@drawable/people"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:hint="User Name" />
+
+  <EditText
+    android:id="@+id/password1"
+    android:gravity="center"
+    android:drawableLeft="@drawable/ic_baseline_wifi_password_24"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/username1"
+      android:inputType="textPassword"
+    android:layout_marginTop="50dp"
+    android:hint="Password" />
+
+  <Button
+      android:id="@+id/btnsignin1"
+      android:layout_width="250px"
+      android:layout_height="100px"
+      android:layout_below="@+id/password1"
+      android:layout_marginTop="50dp"
+      android:text="Login" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="500px"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+      android:layout_width="80px"
+      android:layout_height="100px"
+      android:layout_marginTop="100px"
+        android:textSize="30px"
+      android:textColor="@color/white"
+      android:text="New" />
+
+    <Button
+      android:id="@+id/btnregister"
+      android:layout_width="250px"
+      android:layout_height="100px"
+      android:backgroundTint="@color/green"
+      android:layout_marginTop="80px"
+      android:text="Register" />
+  </LinearLayout>
+</LinearLayout>

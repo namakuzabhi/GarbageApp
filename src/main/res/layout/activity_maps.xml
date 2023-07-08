@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:map="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  tools:context=".MapsActivity" >
+
+  <EditText
+    android:id="@+id/e1"
+    android:drawableLeft="@drawable/ic_baseline_location_on_24"
+    android:textColorHint="@color/purple_700"
+    android:layout_width="400px"
+    android:layout_height="100px"
+    android:hint="Enter location"
+    android:layout_marginTop="30px"
+    android:gravity="center"
+    />
+  <Button
+    android:layout_width="200px"
+    android:id="@+id/but"
+    android:layout_height="90px"
+    android:text="Search"/>
+
+  <fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="wrap_content"
+    android:id="@+id/map"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
+

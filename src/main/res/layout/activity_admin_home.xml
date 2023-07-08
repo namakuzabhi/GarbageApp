@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:background="@drawable/ad"
+  android:gravity="center"
+  tools:context=".HomePage">
+
+
+  <Button
+    android:id="@+id/view"
+    android:layout_width="600px"
+    android:layout_height="120px"
+    android:gravity="center"
+    android:backgroundTint="@color/skyblue"
+    android:layout_marginTop="50px"
+    android:drawableLeft="@drawable/ic_baseline_people_24"
+    android:text="View Users"
+    android:textColor="@color/black"
+    android:textSize="40px" />
+
+  <Button
+    android:id="@+id/request"
+    android:layout_width="600px"
+    android:backgroundTint="@color/skyblue"
+    android:layout_height="120px"
+    android:textSize="40px"
+      android:layout_marginTop="30px"
+    android:drawableLeft="@drawable/ic_baseline_emoji_people_24"
+    android:text="View Request"
+    android:textColor="@color/red"
+    android:gravity="center"
+    />
+
+  <Button
+    android:id="@+id/st"
+    android:layout_width="600px"
+    android:backgroundTint="@color/skyblue"
+    android:layout_height="120px"
+      android:layout_marginTop="30px"
+    android:textSize="40px"
+    android:drawableLeft="@drawable/ic_baseline_pending_actions_24"
+    android:textColor="@color/green"
+    android:text="Status"
+    android:gravity="center"
+    />
+
+  <Button
+    android:id="@+id/dr"
+    android:layout_width="600px"
+    android:backgroundTint="@color/black"
+    android:layout_height="120px"
+    android:textSize="40px"
+      android:layout_marginTop="30px"
+    android:drawableLeft="@drawable/taxi1"
+    android:textColor="@color/white"
+    android:text="Add Driver"
+    android:gravity="center"
+    />
+  <Button
+    android:id="@+id/list"
+    android:layout_width="600px"
+    android:backgroundTint="@color/skyblue"
+    android:layout_height="120px"
+    android:layout_marginBottom="200px"
+      android:layout_marginTop="30px"
+    android:textSize="40px"
+    android:drawableLeft="@drawable/driver"
+    android:textColor="@color/purple_700"
+    android:text="Drivers"
+    android:gravity="center"
+    />
+
+  <Button
+    android:id="@+id/back"
+    android:layout_width="200px"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:text="Back"
+    android:textAllCaps="false" />
+
+
+</LinearLayout>
